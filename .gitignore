@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+
+# 运行数据与用户配置（含 API Key / 个人数据，不入库）
+config/
+logs/
+output_audio/
+voice_samples/
+digital_human/
+
+# 测试输出
+tests/probe_out.txt
+tests/probe_d.txt
+
+# 系统文件
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# 编辑器/工具
+.qoder/
+.vscode/
+.idea/
